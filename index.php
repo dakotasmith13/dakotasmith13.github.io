@@ -1,6 +1,58 @@
-    <?php
-    include 'top.php';
-    ?>
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project Miata</title>
+        <link rel="icon" type="image/x-icon" href="../final/images/favicon.ico">
+        <meta name="author" content="Dakota Smith and Kat Hughes">
+        <meta name="description" content="Learn all about the Mazda Miata,
+        and give suggestions for Kat's new project.">
+        <!-- Description is 107 characters, tries to promote a call to action -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
+        <link rel="stylesheet" media="(max-width: 800px)" href="css/custom-tablet.css?version=<?php print time(); ?>" type="text/css">
+        <link rel="stylesheet" media="(max-width: 600px)" href="css/custom-phone.css?version=<?php print time(); ?>" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <section class="logo-image">
+            <h1 hidden>Logo</h1>
+            <a href="../final/index.php"><img src="../final/images/logo.png" alt="logo"></a>
+        </section>
+        <section class="title">
+            <a href="../final/index.php"><h1>Project: Miata</h1></a>
+        </section>
+        <section class="top-nav">
+            <h2 hidden>Top</h2>
+            <nav>
+                <a class="<?php
+                if ($pathParts['filename'] == "index") {
+                    print 'activePage';
+                }
+                ?>" href="index.php">HOME</a>
+            
+                <a class="<?php
+                if ($pathParts['filename'] == "detail") {
+                    print 'activePage';
+                }
+                ?>" href="detail.php">ABOUT</a>
+            
+                <a class="<?php
+                if ($pathParts['filename'] == "array") {
+                    print 'activePage';
+                }
+                ?>" href="array.php">BUILD</a>
+                
+                <a class="<?php
+                if ($pathParts['filename'] == "form") {
+                    print 'activePage';
+                }
+                ?>" href="form.php">SUGGESTIONS</a>
+            </nav>
+        </section>
+    </header>
         <main>
             <section class="home">
                 <h2 hidden>Home</h2>
@@ -75,9 +127,14 @@
                     <img class="cx-50" alt="2022 CX-50" src="images/cx-50.jpeg"></a>
             </section>
         </main>
-    <?php
-    include 'footer.php';
-    ?>
+        <footer>
+            <p><a href="../index.php">Site map (Main index)</a></p>
+            <p><a href="//khughes2.w3.uvm.edu/cs008/final">Kat Hughes- Section OL</a></p>
+            <p><a href="//dsmith13.w3.uvm.edu/cs008/final">Dakota Smith- Section OL</a></p>
+            <p style="text-align: center">&copy;Copyright 2022 Kat & Dak</p>
+        </footer> 
+    </body>
+</html>
 
 
         
