@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Project Miata</title>
-        <link rel="icon" type="image/x-icon" href="../final/images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <meta name="author" content="Dakota Smith and Kat Hughes">
         <meta name="description" content="Learn all about the Mazda Miata,
         and give suggestions for Kat's new project.">
@@ -19,37 +19,18 @@
     <header>
         <section class="logo-image">
             <h1 hidden>Logo</h1>
-            <a href="../final/index.php"><img src="../final/images/logo.png" alt="logo"></a>
+            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
         </section>
         <section class="title">
-            <a href="../final/index.php"><h1>Project: Miata</h1></a>
+            <a href="../index.html"><h1>Project: Miata</h1></a>
         </section>
         <section class="top-nav">
             <h2 hidden>Top</h2>
             <nav>
-                <a class="<?php
-                if ($pathParts['filename'] == "index") {
-                    print 'activePage';
-                }
-                ?>" href="index.php">HOME</a>
-            
-                <a class="<?php
-                if ($pathParts['filename'] == "detail") {
-                    print 'activePage';
-                }
-                ?>" href="detail.php">ABOUT</a>
-            
-                <a class="<?php
-                if ($pathParts['filename'] == "array") {
-                    print 'activePage';
-                }
-                ?>" href="array.php">BUILD</a>
-                
-                <a class="<?php
-                if ($pathParts['filename'] == "form") {
-                    print 'activePage';
-                }
-                ?>" href="form.php">SUGGESTIONS</a>
+                <a href="index.html">HOME</a>
+                <a href="detail.php">ABOUT</a>
+                <a href="array.php">BUILD</a>
+                <a href="form.php">SUGGESTIONS</a>
             </nav>
         </section>
     </header>
@@ -128,7 +109,7 @@
             </section>
         </main>
         <footer>
-            <p><a href="../index.php">Site map (Main index)</a></p>
+            <p><a href="../index.html">Site map (Main index)</a></p>
             <p><a href="//khughes2.w3.uvm.edu/cs008/final">Kat Hughes- Section OL</a></p>
             <p><a href="//dsmith13.w3.uvm.edu/cs008/final">Dakota Smith- Section OL</a></p>
             <p style="text-align: center">&copy;Copyright 2022 Kat & Dak</p>
