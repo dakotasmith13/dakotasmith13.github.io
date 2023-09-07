@@ -1,0 +1,29 @@
+nav a {
+    display: block;
+    width: 100%;
+}
+
+.form h2 {
+    padding-top: 30%;
+}
+
+.home-banner h2, .home-banner h3 {
+    animation: none;
+}
+
+.home-banner h2 {
+    font-size: 4rem;
+}
+.mazda-images {
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "image-one"
+    "image-two"
+    "image-three"
+    "image-four"
+    "image-five"
+    "image-six";
+    grid-template-columns: auto;
+    padding: 0 0 5% 0;
+}

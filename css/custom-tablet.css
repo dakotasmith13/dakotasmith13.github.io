@@ -1,0 +1,106 @@
+/* header */
+header {
+    grid-template-areas: 
+    "logo"
+    "header" 
+    "nav";
+    grid-template-columns: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.top-nav {
+    text-align: center;
+}
+
+/* index */
+
+.home {
+    grid-template-areas: 
+        "banner"
+        "page-heading"
+        "section-one" 
+        "section-two" 
+        "section-three"
+        "section-four";
+    grid-template-columns: 100%;
+}
+
+.home-image-left {
+    padding: 5%;
+}
+.home-text-right {
+    padding: 5%;
+}
+
+.home-text-left, .above-table {
+    grid-area: section-four;
+    padding: 5%;
+}
+
+.home-image-right, .table-right {
+    grid-area: section-three;
+    padding: 5%;
+}
+
+.home-image-left-2 {
+    grid-area: section-five;
+    padding: 5%;
+}
+
+.home-text-right-2 {
+    grid-area: section-six;
+    padding: 5%;
+}
+
+.mazda-images {
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "image-one image-two"
+    "image-three image-four"
+    "image-five image-six";
+    grid-template-columns: auto auto;
+    padding: 0 0 5% 0;
+}
+
+/* details */
+.details, .array {
+    grid-template-areas: 
+        "banner"
+        "page-heading"
+        "section-one"
+        "section-two"
+        "section-three" 
+        "section-four"
+        "section-five"
+        "section-six";
+    grid-template-columns: 100%;
+}
+
+figure {
+    margin: 1em auto;
+}
+
+/* form */
+#form main {
+    grid-template-areas:
+    "header"
+    "form";
+    grid-template-columns: 100%;
+}
+
+#form main:first-child {
+    grid-column: 1;
+}
+
+#form .actual-form {
+    grid-column: 1;
+    margin: 5% auto;
+}
+
+#form h2 {
+    padding-top: 20%;
+}
