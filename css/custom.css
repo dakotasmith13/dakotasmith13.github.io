@@ -69,6 +69,7 @@ nav a:hover {
 header a {
     color: white;
     text-decoration: none;
+    padding: 1%;
 }
 
 nav a {
