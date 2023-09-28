@@ -34,6 +34,8 @@ h2 {
 body {
     max-width: 100%;
     margin: 0 auto;
+    background-color: black;
+    color: white;
 }
 
 nav {
@@ -165,7 +167,6 @@ header {
         "section-three section-four";
     grid-template-columns: 50% 50%;
     padding: 0;
-    background-color: black;
 }
 
 .home-banner {
