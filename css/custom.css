@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #FFFFFF;
+    --main-bg-color: #000000;
     --main-bg-color-rgba: rgba(0, 0, 0, .55);
     --nav-bg-color-rgba: rgba(100, 150, 255, .25);
     --main-text-color: white;
@@ -149,9 +149,6 @@ header {
     text-decoration: none;
 }
 
-
-
-
 .top-nav {
     grid-area: nav;
     text-align: right;
@@ -168,6 +165,7 @@ header {
         "section-three section-four";
     grid-template-columns: 50% 50%;
     padding: 0;
+    background-color: black;
 }
 
 .home-banner {
