@@ -74,9 +74,6 @@ header a {
     text-decoration: none;
     font-size: large;
     padding: 1%;
-    h1:hover {
-        transform: scale(1.1);
-    }
 }
 
 nav a {
@@ -93,6 +90,10 @@ nav {
 
 header h1 {
     text-transform: uppercase;
+}
+
+header h1:hover {
+    transform: scale(1.2);
 }
 
 main {
