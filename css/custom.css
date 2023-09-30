@@ -71,6 +71,7 @@ nav a:hover {
 header a {
     color: white;
     text-decoration: none;
+    font-size: large;
     padding: 1%;
     font-family: 'Young Serif', 'Roboto';
     &.grow {
