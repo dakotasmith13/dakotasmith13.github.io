@@ -137,7 +137,7 @@ header {
     display: grid;
     grid-template-areas: 
     "logo header nav";
-    grid-template-columns: 10% 30% 60%;
+    grid-template-columns: 20% 20% 60%;
 }
 
 .logo-image {
