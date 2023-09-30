@@ -98,7 +98,7 @@ main {
 
 /* general syling */
 a:hover {
-    color: red;
+    color: #89093E;
 }
 
 footer a, main a {
@@ -136,8 +136,10 @@ header {
 }
 
 .logo-image {
+    display: grid;
     grid-area: logo;
     text-align: center;
+    align-content: center;
 }
 
 .logo-image img {
