@@ -60,6 +60,7 @@ header {
     display: inline-block;
     margin-bottom: -150px;
     position: fixed;
+    font-family: 'OiYou';
 }
 
 /* nav styling*/
@@ -73,10 +74,9 @@ header a {
     text-decoration: none;
     font-size: large;
     padding: 1%;
-}
-
-header a h1:hover {
-    transform: scale(1.1);
+    h1:hover {
+        transform: scale(1.1);
+    }
 }
 
 nav a {
