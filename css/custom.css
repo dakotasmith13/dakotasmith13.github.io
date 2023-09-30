@@ -66,17 +66,16 @@ header {
 nav a:hover {
     text-decoration: underline;
     color: white;
-    &.grow {
-        transform: scale(1.1);
-    }
 }
-
-
 
 header a {
     color: white;
     text-decoration: none;
     padding: 1%;
+    font-family: 'Young Serif', 'Roboto';
+    &.grow {
+        transform: scale(1.1);
+    }
 }
 
 nav a {
