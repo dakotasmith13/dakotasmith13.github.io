@@ -101,7 +101,7 @@ header h1:hover {
     display: grid;
     grid-template-areas: header;
     padding: 20px;
-    font-size: 1em;
+    font-size: 30px;
     width: 50px;
     text-decoration: none;
 }
