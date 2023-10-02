@@ -36,6 +36,7 @@ body {
     margin: 0 auto;
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 
 nav {
