@@ -60,7 +60,37 @@ header {
     display: inline-block;
     margin-bottom: -150px;
     position: fixed;
-    font-family: 'OiYou';
+}
+
+/* grid layout for header*/
+header {
+    display: grid;
+    grid-template-areas: 
+    "logo header nav";
+    grid-template-columns: 20% 40% 40%;
+}
+
+.logo-image {
+    display: grid;
+    grid-area: logo;
+    text-align: center;
+    align-content: center;
+}
+
+.logo-image img {
+    margin-top:1em;
+}
+
+.title, .title a, .title a:hover {
+    grid-area: header;
+    color: white;
+    padding-top: 4%;
+    text-decoration: none;
+}
+
+.top-nav {
+    grid-area: nav;
+    text-align: right;
 }
 
 /* nav styling*/
@@ -99,7 +129,7 @@ header h1:hover {
 /* icons */
 .fa {
     display: grid;
-    grid-template-areas: header;
+    grid-area: header;
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -152,38 +182,6 @@ img {
 p {
     padding-bottom: 1em;
 }
-
-/* grid layout for header*/
-header {
-    display: grid;
-    grid-template-areas: 
-    "logo header nav";
-    grid-template-columns: 20% 40% 40%;
-}
-
-.logo-image {
-    display: grid;
-    grid-area: logo;
-    text-align: center;
-    align-content: center;
-}
-
-.logo-image img {
-    margin-top:1em;
-}
-
-.title, .title a, .title a:hover {
-    grid-area: header;
-    color: white;
-    padding-top: 4%;
-    text-decoration: none;
-}
-
-.top-nav {
-    grid-area: nav;
-    text-align: right;
-}
-
 
 /* grid layout for index */
 .home {
