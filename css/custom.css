@@ -326,17 +326,6 @@ caption {
     background-position: center;  
 }
 
-.form-banner {
-    background: 
-    linear-gradient(
-        rgba(0,0,0,0.45),
-        rgba(0,0,0,0.45)
-    ),
-    url(../images/miata_form_header.JPG);
-    background-size: cover;
-    background-position: center;   
-}
-
 .about-banner {
     background: 
     linear-gradient(
@@ -348,15 +337,15 @@ caption {
     background-position: center; 
 }
 
-.array-banner {
+.resume-banner {
     background: 
     linear-gradient(
         rgba(0,0,0,0.45),
         rgba(0,0,0,0.45)
     ),
-    url(../images/miata_array_header.JPG);
+    url(../images/200626919_l_normal_none.png);
     background-size: cover;
-    background-position: top; 
+    background-position: center; 
 }
 
 .main {
