@@ -167,7 +167,6 @@ cite {
 }
 
 figure {
-    text-align: center;
     width: 100%;
     margin-top: 1em;
 }
@@ -177,7 +176,7 @@ figcaption {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 p {
