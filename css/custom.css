@@ -164,6 +164,7 @@ a:hover {
 
 footer a, main a {
     color: white;
+    text-decoration: none;
 }
 
 cite {
@@ -242,16 +243,6 @@ p {
     font-size: 1.15em;
 }
 
-.home-text-right {
-    grid-area: section-two;
-    padding: 1% 25% 3% 5%;
-}
-
-.home-image-left {
-    grid-area: section-one;
-    padding: 1% 5% 5% 25%;
-}
-
 /* grid layout for about */
 
 .details, .array {
@@ -260,6 +251,16 @@ p {
         "page-heading page-heading"
         "section-one section-two"
     grid-template-columns: 50% 50%;
+}
+
+.home-text-right {
+    grid-area: section-two;
+    padding: 1% 25% 3% 5%;
+}
+
+.home-image-left {
+    grid-area: section-one;
+    padding: 1% 5% 5% 25%;
 }
 
 .details p, .array p {
