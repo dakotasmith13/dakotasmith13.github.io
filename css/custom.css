@@ -255,12 +255,11 @@ p {
 /* grid layout for about */
 
 .details, .array {
-    display: grid;
     grid-template-areas:
         "banner banner" 
         "page-heading page-heading"
         "section-one section-two"
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
 }
 
 .details p, .array p {
@@ -288,9 +287,8 @@ p {
 }
 
 .resume {
-    grid-area: section-one;
     max-width: 80%;
-    text-align: center;
+    padding: 5% 5% 5% 10%;
 }
 
 caption {
