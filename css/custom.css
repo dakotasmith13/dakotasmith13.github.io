@@ -36,12 +36,6 @@ body {
     margin: 0 auto;
     background-color: black;
     color: white;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
-body::-webkit-scrollbar {
-    display: none;
 }
 
 nav {
