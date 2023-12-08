@@ -252,26 +252,6 @@ p {
     padding: 1% 5% 5% 25%;
 }
 
-.home-text-left, .above-table {
-    grid-area: section-three;
-    padding: 1% 5% 5% 25%;
-}
-
-.home-image-right, .table-right {
-    grid-area: section-four;
-    padding: 1% 25% 3% 5%;
-}
-
-.home-text-right-2 {
-    grid-area: section-six;
-    padding: 1% 25% 3% 5%;
-}
-
-.home-image-left-2 {
-    grid-area: section-five;
-    padding: 1% 5% 1% 25%;
-}
-
 /* grid layout for about */
 
 .details, .array {
@@ -307,11 +287,17 @@ p {
     font-size: 3rem;
 }
 
+.resume {
+    max-width: 80%;
+    text-align: center;
+}
+
 caption {
     font-weight: bold;
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 
 /* css classes */
 
