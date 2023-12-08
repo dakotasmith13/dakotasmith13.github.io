@@ -46,6 +46,10 @@ nav {
     padding: 2%;
 }
 
+.add-shadow {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
+}
+
 footer {
     text-align: center;
     width: 100%;
