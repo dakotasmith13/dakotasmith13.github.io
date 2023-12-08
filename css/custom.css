@@ -260,7 +260,6 @@ p {
         "banner banner" 
         "page-heading page-heading"
         "section-one section-two"
-        "section-three section-four"
     grid-template-columns: 30% 70%;
 }
 
@@ -280,6 +279,7 @@ p {
     color: white;
     font-size: 3rem;
 }
+
 .about-banner h2 {
     padding: 3% 5% 8% 5%;
     text-align: left;
@@ -288,6 +288,7 @@ p {
 }
 
 .resume {
+    grid-area: section-one;
     max-width: 80%;
     text-align: center;
 }
