@@ -66,6 +66,16 @@
             <p style="text-align: center">&copy;Copyright 2023 Dakota Smith</p>
             <p>Banner Image © <a href='https://www.123rf.com/profile_delstudio'>delstudio</a>, <a href='https://www.123rf.com/free-images/'>123RF Free Images</a></p>
         </footer> 
+        <script>
+          window.addEventListener('scroll',(e) => {
+            const nav = document.querySelector('.nav');
+            if(window.scrollY > 0) {
+              nav.classList.add("add-shadow");
+            } else {
+              nav.classList.remove("add-shadow");
+            }
+          });
+        </script>
     </body>
 </html>
 
