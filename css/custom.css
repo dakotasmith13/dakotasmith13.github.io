@@ -268,13 +268,13 @@ p {
     font-size: 1.18em;
 }
 
-.array-banner, .about-banner {
+.resume-banner, .about-banner {
     grid-area: banner;
     padding: 5% 5%;
     margin: 0 0 3% 0;  
 }
 
-.about-banner h1, .array-banner h1 {
+.about-banner h1, .resume-banner h1 {
     padding: 3% 5% 8% 5%;
     text-align: left;
     color: white;
