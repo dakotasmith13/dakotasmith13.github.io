@@ -272,59 +272,6 @@ p {
     padding: 1% 5% 1% 25%;
 }
 
-.mazda-images {
-    display: grid;
-    grid-template-areas: 
-    "title title title"
-    "image-one image-two image-three"
-    "image-four image-five image-six";
-    grid-template-columns: auto auto auto;
-    padding: 0 0 5% 0;
-}
-
-.mazda-images h2 {
-    grid-area: title;
-    padding: 1% 0 2% 5%;
-    font-size: 2.5rem; 
-}
-
-.mazda-images .mazda-6 {
-    grid-area: image-one;
-    display: block;
-}
-
-.mazda-images .mazda-3 {
-    grid-area: image-two;
-    display: block;
-}
-
-.mazda-images .mx-5 {
-    grid-area: image-three;
-    display: block;
-}
-
-.mazda-images .cx-30 {
-    grid-area: image-four;
-    display: block;
-}
-
-.mazda-images .cx-9 {
-    grid-area: image-five;
-    display: block;
-}
-
-.mazda-images .cx-50 {
-    grid-area: image-six;
-    display: block;
-}
-
-.mazda-6:hover, .mazda-3:hover, .mx-5:hover,
-.cx-30:hover, .cx-9:hover, .cx-50:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
 /* grid layout for about */
 
 .details, .array {
@@ -334,8 +281,7 @@ p {
         "page-heading page-heading"
         "section-one section-two"
         "section-three section-four"
-        "section-five section-six";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 70%;
 }
 
 .details p, .array p {
@@ -359,141 +305,6 @@ p {
     text-align: left;
     color: white;
     font-size: 3rem;
-}
-
-
-/* form styling */
-
-form {
-    clear: both;
-    max-width: 100%;
-    margin: auto;
-    font-size: large;
-}
-
-form p {
-    text-indent: 0;
-}
-
-fieldset {
-    padding: 5%;
-    border: none;
-}
-
-fieldset.button {
-    padding-top: 0;
-}
-legend {
-    margin-top: 1%;
-}
-
-label {
-    display: block;
-}
-
-.radio label,
-.checkbox label {
-    display: inline;
-}
-
-.radio input,
-.checkbox input {
-    width: initial;
-}
-
-.checkbox legend,
-.contact legend, 
-.textarea legend {
-    padding-top: .5em;
-}
-
-input {
-    width: 90%;
-}
-
-textarea {
-    width: 100%;
-    padding: .5em;
-}
-
-select {   
-    width: 100%;
-}
-
-input[type="text"] {
-    padding: .5em;
-}
-
-input[type="email"] {
-    padding: .5em;
-}
-
-select {
-    padding: 1em;
-}
-
-input[type="submit"] {
-    background: rgb(236, 31, 31);
-    border: none;
-    color: whitesmoke;
-    font-size: large;
-    padding: 2%;
-    width: 100%;  
-}
-
-input[type="submit"]:hover {
-    background: rgb(148, 18, 18);
-}
-
-.mistake {
-    font-size: 1.25rem;
-    padding-top: 1%;
-}
-/* form grid layout */
-
-#form main {
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "form form form";
-    grid-template-columns: 20% 60% 20%;
-}
-
-#form .form-banner {
-    grid-area: header;
-    padding: 5% 5%;
-}
-
-#form .actual-form {
-    grid-area: form;
-    max-width: 100%;
-    width: 50%;
-    margin: 0 auto;
-}
-
-#form .actual-form h2 {
-    padding: 5%;
-}
-
-#form .form-banner h2 {
-    padding: 3% 5% 8% 5%;
-    text-align: left;
-    color: white;
-    font-size: 3rem;
-}
-
-/* table styling */
-table {
-    border: medium solid white;
-    border-collapse: collapse;
-    max-width: 100%;
-    margin: auto;
-}
-
-td,
-th {
-    border: thin solid white;
-    padding: .5em;
 }
 
 caption {
@@ -532,7 +343,7 @@ caption {
         rgba(0,0,0,0.45),
         rgba(0,0,0,0.45)
     ),
-    url(../images/miata_about_header.jpg);
+    url(../images/about_banner.jpg);
     background-size: cover;
     background-position: center; 
 }
